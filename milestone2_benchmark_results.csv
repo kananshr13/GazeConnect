@@ -1,0 +1,6 @@
+Model,Median_Error_px,Mean_Error_px,P80_Error_px,Median_Error_cm,Dense_Key_Hit_Rate_pct,Latency_ms,Throughput_FPS
+M1: Pure Geometric + Fixed Ridge (lam=1.0),97.11,131.23,241.48,3.43,60.3,10.63,94.1
+M2: Pure Geometric + Grid Ridge (lam=3.0),94.92,128.11,240.81,3.35,60.6,10.63,94.1
+M3: Appearance-Only (L2CS CNN + Ridge),631.55,575.38,865.59,22.3,7.7,21.67,46.1
+M4: Hybrid (BasicCNN + 5pt Iris + PSO),86.09,129.97,241.32,3.04,61.3,31.77,31.5
+M5: Hybrid (L2CS-Style + 5pt Iris + PSO) [Proposed],87.69,133.28,241.38,3.1,61.3,21.67,46.1
